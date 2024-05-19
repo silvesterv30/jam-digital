@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #f0f0f0;
+  font-family: Arial, Sans-Serif;
+}
+.clock {
+  display: flex;
+  gap: 10px;
+  font-size: 3rem;
+}
+.jam, .menit, .detik {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
